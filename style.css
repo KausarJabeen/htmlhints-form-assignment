@@ -34,6 +34,47 @@ header ul li {
 .article .inner {
     width: 50%;
 }
+.contact-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.download-form {
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4caf86;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+footer h2 {
+    text-align: center;
+}
 .copyright {
     background: black;
     font-size: 16px;
@@ -46,7 +87,7 @@ header ul li {
         height: 40vh;
     }
     .hero h1 {
-        font-size: 4em !important;
+        font-size: 2em !important;
     }
     .article {
         flex-wrap: wrap;
